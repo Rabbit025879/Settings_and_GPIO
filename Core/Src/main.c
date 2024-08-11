@@ -100,10 +100,15 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  // Beginners
+//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+//	  HAL_Delay(3000);
 	  // Basic - 1
-//	  HAL_Delay(1000);
-//	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-	  // Basic - 2
+//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+//	  HAL_Delay(700);
+//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+//	  HAL_Delay(300);
+//	  // Basic - 2
 //	  buttonState = HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
 	  // Advanced
 	  buttonState = HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
